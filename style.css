@@ -11,7 +11,8 @@ body {
 }
 
 .container {
-  margin: 0 160px;
+  max-width: 960px;
+  margin: auto;
 }
 
 /* HEADER */
@@ -52,7 +53,7 @@ ul {
 
 .hero .container {
   display: flex;
-  gap: 32px;
+  gap: 96px;
 }
 
 .hero-txt {
@@ -100,12 +101,16 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 16px;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  margin-bottom: 0;
 }
 
 .img-and-subinfos {
   display: flex;
   padding: 64px 350px;
+  display: flex;
+  gap: 16px;
 }
 
 .img-and-subinfo {
@@ -119,10 +124,11 @@ h1 {
   text-align: center;
 }
 
-/*/ QUOTE */
+/*/ QUOTE ----------*/
 .quote {
   background-color: #e5e7eb;
-  padding: 64px 350px;
+  margin: 0;
+  padding: 48px 350px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -138,17 +144,25 @@ h1 {
 .quote-author {
   text-align: end;
   font-weight: bold;
+  margin-top: 8px;
 }
 
 /* CTA */
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
 .cta-div {
   background-color: #3b82f6;
-  margin-top: 64px;
   padding: 32px 80px;
   border-radius: 8px;
   color: white;
   display: flex;
-  gap: 220px;
+  align-items: center;
+  gap: 24px;
 }
 
 .cta-title {
@@ -166,6 +180,7 @@ h1 {
   background-color: #3b82f6;
   color: white;
   border-radius: 4px;
+  padding: 8px;
 }
 
 /* FOOTER */
@@ -176,5 +191,4 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: auto;
 }
