@@ -133,3 +133,33 @@ h1 {
   text-align: end;
   font-weight: bold;
 }
+
+/* CTA */
+.cta {
+}
+.cta-div {
+  background-color: #3b82f6;
+  margin-top: 64px;
+  padding: 32px 80px;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  gap: 220px;
+}
+
+.cta-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cta-txt {
+  color: #e5e7eb;
+}
+
+.cta-btn {
+  border: solid 2px white;
+  width: 128px;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 4px;
+}
