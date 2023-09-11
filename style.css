@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 100px;
+}
+
+/* HEADER */
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 32px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  color: #b3b7bc;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
