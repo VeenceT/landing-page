@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   margin: 0 160px;
 }
@@ -135,8 +141,6 @@ h1 {
 }
 
 /* CTA */
-.cta {
-}
 .cta-div {
   background-color: #3b82f6;
   margin-top: 64px;
@@ -162,4 +166,15 @@ h1 {
   background-color: #3b82f6;
   color: white;
   border-radius: 4px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: auto;
 }
